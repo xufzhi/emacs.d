@@ -33,6 +33,9 @@
 (when (version= "26.2" emacs-version)
   (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3"))
 
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+
 
 ;;; On-demand installation of packages
 
