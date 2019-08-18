@@ -93,7 +93,7 @@
 (require 'init-erlang)
 (require 'init-javascript)
 (require 'init-php)
-(require 'init-org)
+;;(require 'init-org)
 (require 'init-nxml)
 (require 'init-html)
 (require 'init-css)
